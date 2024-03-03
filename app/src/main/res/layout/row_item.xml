@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="35dp"
+    android:padding="21dp"
+    app:cardCornerRadius="25dp"
+
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_weather_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text of weather"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_weather_tempreture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/iv_weather_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/search_24"/>
+
+        <TextView
+            android:id="@+id/tv_windSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
